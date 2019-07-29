@@ -12,7 +12,7 @@ foreach($rooms as $room){
 ?>
 <form action="<?php echo site_url('bookings/load') ?>" method="POST">
 <?php echo form_hidden('chosen_date', $chosen_date) ?>
-<table>
+<table class='ui celled padded table'>
 	<tr>
 		<td valign="middle">
 			<label for="room_id">

@@ -8,7 +8,7 @@
 </script>
 
 <form action="<?php echo site_url('bookings/load') ?>" method="POST" name="bookings_book" id="bookings_date">
-<table class='ui celled padded table'>
+<table class='ui table'>
 	<tr>
 		<td valign="middle"><label for="chosen_date"><strong>Date:</strong></label></td>
 		<td valign="middle">
